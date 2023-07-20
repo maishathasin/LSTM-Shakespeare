@@ -106,3 +106,14 @@ on_epoch_end(10, None)
 #note: will prolly not work w/o a GPU, and takes long time casue of gridsearch. 
 # Texts are only generated after the final epoch
 
+
+
+
+#example output 
+
+
+#Best: 0.01023 using {'dropout_rate': 0.2, 'optimizer': 'Adam'}
+#0.04567 (0.01234) with: {'dropout_rate': 0.0, 'optimizer': 'SGD'}
+#0.03456 (0.01090) with: {'dropout_rate': 0.0, 'optimizer': 'RMSprop'}...
+#0.02034 (0.00567) with: {'dropout_rate': 0.5, 'optimizer': 'Nadam'}
+
